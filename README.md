@@ -17,7 +17,17 @@ My program takes as input a .txt file with the following structure. The input st
 The output is printed on one line and contains values H1, ..., HM separated by a space, indicating how much time must be dedicated to studying topic i. The values are rounded to the 2nd decimal point.
 
 # Performance
+The algorithm runs in approximately O(n + nlogn) where n is the number of topics. Sorting the topics is the operation that takes the longest at O(nlogn)
 
 # How to run this program
+The program can be run from the command line with 
+``` Bash
+python3 script.py < '<path/to/input/file>'
+```
+For convenience, I have provided some sample input files in the SampleInputs directory.
 
 # How to run tests
+In the ```tests``` directory, run the following command:
+``` Bash
+python3 -m unittest discover
+```
