@@ -24,10 +24,10 @@ The program can be run from the command line with
 ``` Bash
 python3 script.py < '<path/to/input/file>'
 ```
-For convenience, I have provided some sample input files in the SampleInputs directory.
+For convenience, I have provided some sample input files in the ```SampleInputs``` directory.
 
 # How to run tests
-In the ```tests``` directory, run the following command:
+In the ```Tests``` directory, run the following command:
 ``` Bash
 python3 -m unittest discover
 ```
