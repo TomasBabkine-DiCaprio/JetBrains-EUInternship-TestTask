@@ -11,13 +11,13 @@ To maximize their chances of getting the best possible grade, the programmer sho
 # Input
 My program takes as input a .txt file with the following structure. The input starts with one line containing three positive integers, N, M & L separated by a space. Then follow M lines containing two integers Ki & Ti.
 
+(This input format is similar to the one found on the [Kattis](https://open.kattis.com/) platform).
+
 # Assumptions
 1. N >= 0
 2. M >= 0
 3. Ti > 0
 4. Ki >= 0
-
-(This input format is similar to the one found on the [Kattis](https://open.kattis.com/) platform).
 
 # Output
 The output is printed to the console and contains values H1, ..., HM separated by a space, indicating how much time must be dedicated to studying topic i.
