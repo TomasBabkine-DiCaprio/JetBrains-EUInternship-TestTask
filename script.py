@@ -36,6 +36,7 @@ def calculate_study_time(N, M, topics):
 
     return study_time
 
+
 if __name__ == '__main__':
     # parse input
     N, M, L = map(int, input().split())
@@ -50,6 +51,6 @@ if __name__ == '__main__':
     # construct output string
     output = "The programmer will have to spend"
     for j in study_time:
-        output += f" {study_time[j][2]} hour(s) on topic {j},"
+        output += f" {study_time[j][2]} hour(s) on topic {j + 1},"
 
     print(output[:-1] + ".")
